@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilory';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+/* 
+#box{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+@keyframes anime {
+    from{
+
+        left: 0;
+        rotate: 0;
+    }
+    to{
+        left: 70%;
+        rotate: 360deg;
+        background-color: rebeccapurple;
+    }   
+} */
+
+
+
+/* #box2{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+@keyframes anime {
+    0%{
+        top:0;
+        left: 0;
+        rotate: 0deg;
+    }
+    50%{
+        left: 80%;
+        top:0;
+        rotate: 0deg;
+    }
+    100%{
+        left: 80%;
+        top:50%;
+        rotate: 360deg;
+    }
+    
+} */
+
+h1{
+    font-size: 100px;
+    color: red;
+}
+h1::after{
+    content: " and dostniyo!😊";
+    color: blue;
+    font-size: 50px;
+}
+
+h1::before{
+    content: " Namaste 🙏";
+    color: blue;
+    font-size: 50px;
+}
