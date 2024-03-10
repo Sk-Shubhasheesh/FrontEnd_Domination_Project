@@ -60,10 +60,48 @@ html, body{
     color: #000;
 }
 
-
-
 #content{
     height:calc(100% - 120px);
     width: 100%;
-    background-color: crimson;
+    /* background-color: rgb(250, 235, 238); */
+    padding-top: 95px;
+}
+#content h3{
+    background-color: #F2B0EA;
+    padding: 10px 16px;
+    border-radius: 15px;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-family: "Source Serif 4";
+    font-weight: 100;
+    
+}
+#content h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 25px 0px;
+    font-family: "Source Serif 4";
+    font-weight: 100;
+    line-height: 80px;
+}
+#content h4{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+#content button{
+    padding: 20px 28px;
+    font-weight: 600;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18 px;
+    margin: 30px 0px; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
