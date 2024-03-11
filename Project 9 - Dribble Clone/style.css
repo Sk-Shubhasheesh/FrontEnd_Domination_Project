@@ -105,3 +105,67 @@ html, body{
     left: 50%;
     transform: translateX(-50%);
 }
+#bottom{
+    height: 380px;
+    width: 100%;
+    /* background-color: red; */
+    padding: 5px;
+    /* display: flex;
+    flex-wrap: nowrap; */
+    white-space: nowrap;
+    /* gap: 30px; */
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+#bottom::-webkit-scrollbar{
+    display: none;
+}
+.elem{
+    /* flex-shrink: 0; */
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 320px;
+    margin-right: 30px;
+    background-color: royalblue;
+    border-radius: 40px;
+    /* border: 2px solid #000; */
+    overflow: hidden;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.elem video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.elem .overlay{
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction:column;
+    padding: 1vw  1.2vw;
+    color: white;
+    font-weight: 500;
+  }
+  .overlay p{
+    font-size: 1.5vw;
+    font-weight: 500;
+  }
+  .overlay div{
+    margin-top: 1.7vw;
+  }
+  .overlay span{
+    padding: 0.5vw 1vw;
+    border: 0.5px solid white;
+    font-size: 1vw;
+    border-radius: 3vw;
+  }
