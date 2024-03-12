@@ -353,6 +353,14 @@ body{
     padding: 0vw 2vw;
     position: relative;
 }
+@keyframes move {
+    from{
+        transform: translateX(0)
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+}
 .elem img{
     height: 100px;
     width: 120px;
@@ -362,6 +370,7 @@ body{
     object-fit: cover;
     opacity: 0;
     transition: all ease 0.7s;
+    
     
 }
 .elem h4{
@@ -422,12 +431,4 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 
-}
-@keyframes move {
-    from{
-        transform: translateX(0)
-    }
-    to{
-        transform: translateX(calc(-100% - 20px));
-    }
 }
